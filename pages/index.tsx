@@ -13,12 +13,12 @@ const Home: NextPage = () => {
   const domain = "https://dbqzzcqmhmxm.cloudfront.net/";
   const ext = ".mp4";
   const videos = [
-    domain+"1"+ext,
-    domain+"2"+ext,
-    domain+"3"+ext,
-    domain+"4"+ext,
-    domain+"5"+ext,
-    domain+"6"+ext,
+    // domain+"1"+ext,
+    // domain+"2"+ext,
+    // domain+"3"+ext,
+    // domain+"4"+ext,
+    // domain+"5"+ext,
+    // domain+"6"+ext,
     domain+"7"+ext,
   ];
 
@@ -26,7 +26,7 @@ const Home: NextPage = () => {
   const listItems = videos.map((v,index) =>
        <div key={index}>
         <div>
-            {index}
+            Học tiếng anh qua phim hoạt hình
         </div>
         <ReactPlayer
          url={v}
