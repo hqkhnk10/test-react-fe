@@ -25,15 +25,15 @@ const Home: NextPage = () => {
 
   const listItems = videos.map((v,index) =>
        <div key={index}>
-        <div>
+        <h1>
             Học tiếng anh qua phim hoạt hình
-        </div>
+        </h1>
         <ReactPlayer
          url={v}
          controls
          preload="none"
-         width="700"
-         height="480"
+         width="1080px"
+         height="720px"
        >
         </ReactPlayer>
         </div>
